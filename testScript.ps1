@@ -2,10 +2,14 @@
 # TO DO Copy code for address from work
 # TO DO Design GUI
 
+<# This form was created using POSHGUI.com  a free online gui designer for PowerShell
+.NAME
+    Untitled
+#>
 Add-Type -AssemblyName System.Windows.Forms
 [System.Windows.Forms.Application]::EnableVisualStyles()
 
-$Form                            = New-Object system.Windows.Forms.Form
+$Form                            = New-Object vsystem.Windows.Forms.Form
 $Form.ClientSize                 = '753,497'
 $Form.text                       = "Address Book"
 $Form.TopMost                    = $false
